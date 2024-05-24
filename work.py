@@ -22,4 +22,16 @@
 #     time.sleep(2)
 #     return n * n
 
-import this
+
+# from typing import Any
+#
+# def check_argument_types(func: Any) -> Any:
+#     def decorator(arg: Any) -> Any:
+#         if not isinstance(arg, type(func.__annotations__[0])):
+#             raise ValueError(f"Argument '{arg}' must be of type '{func.__annotations__[0]}'.")
+#         return func(arg)
+#     return decorator
+#
+# @check_argument_types
+# def summa(a: int, b: int) -> int:
+#     return a + b
